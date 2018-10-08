@@ -3,15 +3,15 @@
 Djangoの使い方を勉強するためのプロジェクトです
 
 # メモ
-##〇構成  
-######・設定ディレクトリ  
+## 〇構成  
+###### ・設定ディレクトリ  
 manage.py  
 [設定ファイル] -- __init__.py  
               -- settings.py  
               -- urls.py  
               --wsgi.py  
 
-######・アプリケーション
+###### ・アプリケーション
 <p>[機能名] -- __init__.py</p><br>
 <p>         -- admin.py</p><br>
 <p>         -- apps.py</p><br>
@@ -20,7 +20,7 @@ manage.py
 <p>         -- tests.py</p><br>
 <p>         --views.py</p><br>
 
-##〇コマンド
+## 〇コマンド
 django-admin startproject [プロジェクト名] [ディレクトリ]  
 でアプリケーション全体の設定を行う部品を作成  
 →1つ  
