@@ -12,13 +12,13 @@ manage.py
               --wsgi.py  
 
 ###### ・アプリケーション
-<p>[機能名] -- __init__.py</p><br>
-<p>         -- admin.py</p><br>
-<p>         -- apps.py</p><br>
-<p>         -- [mygrations] -- __init__.py</p><br>
-<p>         -- models.py</p><br>
-<p>         -- tests.py</p><br>
-<p>         --views.py</p><br>
+[機能名] -- __init__.py  
+         -- admin.py  
+         -- apps.py  
+         -- [mygrations] -- __init__.py  
+         -- models.py  
+         -- tests.py  
+         --views.py  
 
 ## 〇コマンド
 django-admin startproject [プロジェクト名] [ディレクトリ]  
