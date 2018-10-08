@@ -3,13 +3,13 @@
 Djangoの使い方を勉強するためのプロジェクトです
 
 # メモ
-<p>〇構成</p><br>
-<p>・設定ディレクトリ</p><br>
-<p>manage.py</p>
-<p>[設定ファイル] -- __init__.py</p><br>
-<p>              -- settings.py</p><br>
-<p>              -- urls.py</p><br>
-<p>              --wsgi.py</p><br>
+-- 〇構成
+--・設定ディレクトリ
+--manage.py
+--[設定ファイル] -- __init__.py
+--              -- settings.py</p><br>
+--              -- urls.py</p><br>
+--              --wsgi.py</p><br>
               
 <p>・アプリケーション</p><br>
 <p>[機能名] -- __init__.py</p><br>
