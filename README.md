@@ -6,11 +6,11 @@ Djangoの使い方を勉強するためのプロジェクトです
 〇構成  
 ・設定ディレクトリ  
 manage.py  
--- [設定ファイル] -- __init__.py
---              -- settings.py</p><br>
---              -- urls.py</p><br>
---              --wsgi.py</p><br>
-              
+[設定ファイル] -- __init__.py  
+              -- settings.py  
+              -- urls.py  
+              --wsgi.py  
+
 <p>・アプリケーション</p><br>
 <p>[機能名] -- __init__.py</p><br>
 <p>         -- admin.py</p><br>
