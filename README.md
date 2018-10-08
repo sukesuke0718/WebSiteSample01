@@ -2,17 +2,17 @@
 
 Djangoの使い方を勉強するためのプロジェクトです
 
-#メモ
-〇構成
-・設定ディレクトリ
-manage.py
-[設定ファイル] -- __init__.py<br>
-              -- settings.py<br>
-              -- urls.py<br>
-              --wsgi.py<br>
+# メモ
+<h1>〇構成</h1>
+<h2>・設定ディレクトリ</h2>
+<p>manage.py</p>
+<p>[設定ファイル] -- __init__.py</p><br>
+<p>              -- settings.py</p><br>
+<p>              -- urls.py</p><br>
+<p>              --wsgi.py</p><br>
               
-・アプリケーション
-[機能名] -- __init__.py
+<h2>・アプリケーション</h2>
+<p>[機能名] -- __init__.py</p><br>
          -- admin.py
          -- apps.py
          -- [mygrations] -- __init__.py
@@ -20,13 +20,13 @@ manage.py
          -- tests.py
          --views.py
 
-django-admin startproject [プロジェクト名] [ディレクトリ]
-でアプリケーション全体の設定を行う部品を作成
-→1つ
-（補足）
-・ディレクトリに”.”を指定することで現在のフォルダに作成される
+<p>django-admin startproject [プロジェクト名] [ディレクトリ]<br>
+でアプリケーション全体の設定を行う部品を作成<br>
+→1つ</p><br>
+<p>（補足）</p>
+<p>・ディレクトリに”.”を指定することで現在のフォルダに作成される</p>
 
-python manage.py startapp [アプリケーション名]
-で各アプリケーション用の部品を作成
-→実装したい機能ごとに作成していく
-→複数
+<p>python manage.py startapp [アプリケーション名]<br>
+で各アプリケーション用の部品を作成<br>
+→実装したい機能ごとに作成していく<br>
+→複数</p>
