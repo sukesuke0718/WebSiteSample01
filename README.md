@@ -4,9 +4,9 @@ Djangoの使い方を勉強するためのプロジェクトです
 
 # メモ
 -- 〇構成
---・設定ディレクトリ
---manage.py
---[設定ファイル] -- __init__.py
+-- ・設定ディレクトリ
+-- manage.py
+-- [設定ファイル] -- __init__.py
 --              -- settings.py</p><br>
 --              -- urls.py</p><br>
 --              --wsgi.py</p><br>
