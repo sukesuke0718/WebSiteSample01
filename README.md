@@ -3,28 +3,29 @@
 Djangoの使い方を勉強するためのプロジェクトです
 
 # メモ
-<h1>〇構成</h1>
-<h2>・設定ディレクトリ</h2>
+<p>〇構成</p><br>
+<p>・設定ディレクトリ</p><br>
 <p>manage.py</p>
 <p>[設定ファイル] -- __init__.py</p><br>
 <p>              -- settings.py</p><br>
 <p>              -- urls.py</p><br>
 <p>              --wsgi.py</p><br>
               
-<h2>・アプリケーション</h2>
+<p>・アプリケーション</p><br>
 <p>[機能名] -- __init__.py</p><br>
-         -- admin.py
-         -- apps.py
-         -- [mygrations] -- __init__.py
-         -- models.py
-         -- tests.py
-         --views.py
+<p>         -- admin.py</p><br>
+<p>         -- apps.py</p><br>
+<p>         -- [mygrations] -- __init__.py</p><br>
+<p>         -- models.py</p><br>
+<p>         -- tests.py</p><br>
+<p>         --views.py</p><br>
 
 <p>django-admin startproject [プロジェクト名] [ディレクトリ]<br>
 でアプリケーション全体の設定を行う部品を作成<br>
 →1つ</p><br>
 <p>（補足）</p>
 <p>・ディレクトリに”.”を指定することで現在のフォルダに作成される</p>
+
 
 <p>python manage.py startapp [アプリケーション名]<br>
 で各アプリケーション用の部品を作成<br>
